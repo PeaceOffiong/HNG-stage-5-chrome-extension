@@ -1,13 +1,43 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@600&family=Work+Sans&display=swap");
+
+.primaryColor {
+  background-color: #120b48;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.blank{
+  background-color: rgb(238, 238, 238);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.fontInter {
+  font-family: "Inter", sans-serif;
+}
+
+.fontWorkSans {
+  font-family: "Work Sans", sans-serif;
+}
+
+.fontSora {
+  font-family: "Work Sans", sans-serif;
+}
+
+.specP {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.key {
+  color: rgba(97, 97, 99, 1);
+}
+
+.features {
+  color: rgba(20, 20, 20, 1);
 }
